@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Số nguyên tố</title>
+</head>
+<body>
+<script type="text/javascript">
+	x= parseInt(prompt('Nhập vào số nhiệt độ'));
+	if (x>=100) {
+		alert('Giảm nhiệt độ');
+	}else if (x<=20) {
+		alert('Tăng nhiệt độ');
+	}
+</script>
+</body>
+</html>
