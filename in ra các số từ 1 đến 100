@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Chương trình in ra các số từ 1 đến 100</title>
+</head>
+<body>
+<script type="text/javascript">
+	for(var x=0;x<=100;x++) {
+		if(x%15==0){
+			document.write('FizzBuzz' + '<br>');
+		}else if (x%5==0) {
+			document.write('Buzz'+ '<br>');
+		}else if (x%3==0) {
+			document.write('Fizz'+ '<br>');
+		}else {
+			document.write(x+ '<br>');
+		}	
+	}
+</script>
+</body>
+</html>
