@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Số nguyên tố</title>
+</head>
+<body>
+<script type="text/javascript">
+	for (x=0;x<=100;x++) {
+		document.write(x + '<br>');
+		if (x==99) {
+			alert('done');
+		}
+	}
+</script>
+</body>
+</html>
