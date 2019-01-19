@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>30 số chia hết cho 7</title>
+</head>
+<body>
+<script type="text/javascript">
+	var tong_so = 30;
+	var dem_so =0;
+	var y=0;
+	for(var x=7;dem_so<=tong_so;x+=7) {
+		if(x%7==0) {
+			dem_so++;
+			y+=x;
+		}
+	}
+	if(dem_so=29){
+		document.write('Tổng của 30 số chia hết cho 7 đầu tiên trong các số tự nhiên là :' +y);
+	}
+</script>
+</body>
+</html>
