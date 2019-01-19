@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fibonacci</title>
+</head>
+<body>
+<script type="text/javascript">
+	var tong_so = 19;
+	var dem_so =0;
+	var x=0;
+	var tong_fibonacci =0;
+	for (var y =1;dem_so<tong_so;y=z) {
+		var z=x+y;
+		tong_fibonacci +=z;
+		dem_so++;
+		x=y;		
+	}
+	if(dem_so=18){
+		tong_fibonacci+=2;
+		document.write('Tổng 20 số đầu tiên trong dãy Fibonacci là :' +tong_fibonacci);
+	}
+</script>
+</body>
+</html>
